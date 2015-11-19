@@ -1,0 +1,33 @@
+{
+  "name": "icws-module",
+  "version": "0.0.1",
+  "description": "Connect to CIC using ICWS API",
+  "license": "MIT",
+  "author": {
+    "name": "Pierrick Lozach",
+    "email": "pierrick.lozach@inin.com",
+    "url": "inin.com"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "gulp": "~3.9.0",
+    "gulp-util": "~3.0.6",
+    "glob": "~6.0.1",
+    "babel-core": "~6.2.0"
+  },
+  "keywords": [
+    "icws",
+    "cic"
+  ],
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  },
+  "repository": "PierrickI3/icws-module",
+  "bugs": "https://github.com/PierrickI3/icws-module/issues",
+  "homepage": "https://github.com/PierrickI3/icws-module"
+}
